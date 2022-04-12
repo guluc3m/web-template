@@ -58,9 +58,13 @@ html {
 
 /* ======  MAIN SECTION START ====== */
 
-#buffer {
-  padding-top: 11vh;
+main {
+  background-image: url("../images/background/logo_blue_w.svg");
+  background-color: #1c3144;
+  background-size: cover;
+  padding-top: 11vh;  /* to cover up navbar */
 }
+
 
 
 /* <<<<<<  MAIN SECTION SECTION END >>>>>> */
@@ -116,9 +120,6 @@ html {
   
   .text-container {
     width: 80%;
-  }
-  #buffer {
-    padding-top: 13vh;
   }
 }
 
